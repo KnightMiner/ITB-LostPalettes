@@ -21,18 +21,6 @@ function mod:init()
 			BodyHighlight  = {102, 103,  93},
 		},
 		{
-			ID = "Lost_Ice",
-			Name = "Pinnacle Ice Tank",
-			PlateHighlight = {195, 251, 255},
-			PlateLight     = {103, 171, 165},
-			PlateMid       = { 68, 136, 134},
-			PlateDark      = { 45,  63,  76},
-			PlateOutline   = { 32,  38,  46},
-			PlateShadow    = { 34,  36,  36},
-			BodyColor      = { 67,  72,  72},
-			BodyHighlight  = {120, 146, 129},
-		},
-		{
 			ID = "Lost_Bot",
 			Name = "Pinnacle Robot",
 			PlateHighlight = {255,  14,  19},
@@ -103,6 +91,18 @@ function mod:init()
 			PlateShadow    = { 89,  36,  37},
 			BodyColor      = {155,  63,  63},
 			BodyHighlight  = {255,  95,  75},
+		},
+		{
+			ID = "Lost_Missile",
+			Name = "Missile Red",
+			PlateHighlight = { 80, 255,  92},
+			PlateLight     = {255,  92,  80},
+			PlateMid       = {156,  49,  57},
+			PlateDark      = { 81,  19,  23},
+			PlateOutline   = { 33,  15,  17},
+			PlateShadow    = { 57,  58,  57},
+			BodyColor      = {105, 109, 105},
+			BodyHighlight  = {195, 201, 188},
 		}
 	)
 end
