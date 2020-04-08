@@ -57,18 +57,6 @@ function mod:init()
 			BodyHighlight  = {137, 162, 153},
 		},
 		{
-			ID = "Lost_BotAlpha",
-			Name = "Pinnacle Robot Alpha",
-			PlateHighlight = {},
-			PlateLight     = {},
-			PlateMid       = {},
-			PlateDark      = {},
-			PlateOutline   = {},
-			PlateShadow    = {},
-			BodyColor      = {},
-			BodyHighlight  = {},
-		},
-		{
 			ID = "Lost_BotBoss",
 			Name = "Pinnacle Robot Boss",
 			PlateHighlight = {255,  14,  19},
