@@ -53,7 +53,7 @@ function mod:init()
 			PlateDark      = { 74,  58,  66},
 			PlateOutline   = { 27,  25,  27},
 			PlateShadow    = { 41,  50,  48},
-			BodyColor      = {160,  92,  85},
+			BodyColor      = { 71,  92,  85},
 			BodyHighlight  = {137, 162, 153},
 		},
 		{
