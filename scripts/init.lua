@@ -103,6 +103,18 @@ function mod:init()
 			PlateShadow    = { 57,  58,  57},
 			BodyColor      = {105, 109, 105},
 			BodyHighlight  = {195, 201, 188},
+		},
+		{
+			ID = "Lost_Volatile",
+			Name = "Volatile Yellow",
+			PlateHighlight = {255, 244, 213},
+			PlateLight     = {251, 255,  33},
+			PlateMid       = {151, 104,  45},
+			PlateDark      = { 64,  26,  62},
+			PlateOutline   = { 12,  19,  31},
+			PlateShadow    = { 62,  69,  93},
+			BodyColor      = { 74, 136, 163},
+			BodyHighlight  = {206, 212, 135},
 		}
 	)
 end
