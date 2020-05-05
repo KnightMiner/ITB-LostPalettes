@@ -7,6 +7,7 @@ MKDIR build\LostPalettes
 
 REM Copy required files into build directory
 XCOPY scripts build\LostPalettes\scripts /s /e /i
+XCOPY img build\LostPalettes\img /s /e /i
 
 REM Zipping contents
 powershell.exe -nologo -noprofile -command "& { Add-Type -A 'System.IO.Compression.FileSystem'; [IO.Compression.ZipFile]::CreateFromDirectory('build', 'Lost-Palettes-#.#.#.zip'); }"
