@@ -2,7 +2,8 @@ local mod = {
 	id = "lost_palettes",
 	name = "Lost Palettes",
 	version = "1.0.1",
-	requirements = {}
+	requirements = {},
+	icon = "img/icon.png"
 }
 
 function mod:init()
