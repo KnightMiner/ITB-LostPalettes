@@ -115,6 +115,42 @@ function mod:init()
 		BodyColor      = { 74, 136, 163},
 		BodyHighlight  = {206, 212, 135},
 	}
+  modApi:addPalette{
+		ID = "Lost_TCSquad",
+		Name = "TC Green",
+		PlateHighlight = {205,  72,  91},
+		PlateLight     = {228, 245, 84},
+		PlateMid       = { 42, 122, 81},
+		PlateDark      = { 41,  71,  51},
+		PlateOutline   = { 20,  37,  31},
+		PlateShadow    = { 25,  26,  26},
+		BodyColor      = { 59,  65,  78},
+		BodyHighlight  = {126, 132, 147},
+	}
+  modApi:addPalette{
+		ID = "Lost_Ice",
+		Name = "Ice White",
+		PlateHighlight = {184, 252, 104},
+		PlateLight     = {236, 235, 235},
+		PlateMid       = {137, 137, 137},
+		PlateDark      = { 69,  69,  69},
+		PlateOutline   = { 21,  21,  21},
+		PlateShadow    = { 43,  34,  41},
+		BodyColor      = { 91,  67,  75},
+		BodyHighlight  = {196, 129, 128},
+	}
+  modApi:addPalette{
+		ID = "Lost_Unstable",
+		Name = "Unstable Green",
+		PlateHighlight = {125, 255,  91},
+		PlateLight     = { 90, 139, 121},
+		PlateMid       = { 39,  46,  44},
+		PlateDark      = { 17,  21,  19},
+		PlateOutline   = { 13,   8,  10},
+		PlateShadow    = { 49,  41,  14},
+		BodyColor      = {149, 123,   9},
+		BodyHighlight  = {217, 216, 201},
+	}
 end
 
 function mod:load(options, version)
