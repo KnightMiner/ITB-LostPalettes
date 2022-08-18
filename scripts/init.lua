@@ -1,7 +1,7 @@
 local mod = {
   id = "lost_palettes",
   name = "Lost Palettes",
-  version = "1.2.0",
+  version = "1.2.1",
   requirements = {},
   icon = "img/icon.png"
 }
